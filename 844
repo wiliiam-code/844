@@ -2,6 +2,7 @@ class Solution {
 public:
     bool backspaceCompare(string S, string T) {
         stack<char> st1,st2;
+        cout<<"123";
         for(int i= 0;i<S.size();i++){
             if( S[i]== '#'&&!st1.empty()){
                 st1.pop();
